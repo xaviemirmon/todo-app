@@ -38,6 +38,10 @@ To run the tests, run the following command in the root of the project:
 yarn test
 ```
 
+## Production
+
+The app is hosted on Vercel at https://todo-app-frontend-chi-one.vercel.app/ the backend express service is hosted on render.com's free tier.  *Note there may be a delay in the backend service being available after a period of inactivity.*
+
 ## To do list
 
 [x] Create yarn workspace
@@ -51,7 +55,7 @@ yarn test
 [x] Fetch todos from backend using Tanstack Query
 [x] Install Vitest
 [x] Add unit tests with Claude
-[] Deploy to production
+[x] Deploy to production
 
 Future todos:
 [] Add postcss to not load all of tailwindcss
@@ -60,3 +64,7 @@ Future todos:
 [] Build out design system for components and look into Shadcn UI for quicker development
 [] Add delete button to UI
 [] Configure .env to be at the root of the project
+[] Better responsive styling
+[] Fix iOS input styling
+[] Add a11y extension in testing pipeline
+[] Github actions for testing
