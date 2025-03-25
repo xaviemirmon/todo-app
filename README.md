@@ -40,31 +40,31 @@ yarn test
 
 ## Production
 
-The app is hosted on Vercel at https://todo-app-frontend-chi-one.vercel.app/ the backend express service is hosted on render.com's free tier.  *Note there may be a delay in the backend service being available after a period of inactivity.*
+The app is hosted on Vercel at https://todo-app-frontend-chi-one.vercel.app/ the backend express service is hosted on render.com's free tier.  *Note there may be a delay in the backend service being available after a per.*
 
 ## To do list
 
-[x] Create yarn workspace
-[x] Create apps/frontend
-[x] Create apps/backend
-[x] Create flat file DB
-[x] Create shared types
-[x] Install dependencies express, vite, typescript, tailwindcss and  tanstack-query
-[x] Build out basic CRUD routes on the backend
-[x] Build grid for todos
-[x] Fetch todos from backend using Tanstack Query
-[x] Install Vitest
-[x] Add unit tests with Claude
-[x] Deploy to production
+- [x] Create yarn workspace
+- [x] Create apps/frontend
+- [x] Create apps/backend
+- [x] Create flat file DB
+- [x] Create shared types
+- [x] Install dependencies express, vite, typescript, tailwindcss and  tanstack-query
+- [x] Build out basic CRUD routes on the backend
+- [x] Build grid for todos
+- [x] Fetch todos from backend using Tanstack Query
+- [x] Install Vitest
+- [x] Add unit tests with Claude
+- [x] Deploy to production
 
 Future todos:
-[] Add postcss to not load all of tailwindcss
-[] Debounce inputs
-[] Improve optimistic updates
-[] Build out design system for components and look into Shadcn UI for quicker development
-[] Add delete button to UI
-[] Configure .env to be at the root of the project
-[] Better responsive styling
-[] Fix iOS input styling
-[] Add a11y extension in testing pipeline
-[] Github actions for testing
+- [] Add postcss to not load all of tailwindcss
+- [] Debounce inputs
+- [] Improve optimistic updates
+- [] Build out design system for components and look into Shadcn UI for quicker development
+- [] Add delete button to UI
+- [] Configure .env to be at the root of the project
+- [] Better responsive styling
+- [] Fix iOS input styling
+- [] Add a11y extension in testing pipeline
+- [] Github actions for testing
