@@ -58,13 +58,13 @@ The app is hosted on Vercel at https://todo-app-frontend-chi-one.vercel.app/ the
 - [x] Deploy to production
 
 Future todos:
-- [] Add postcss to not load all of tailwindcss
-- [] Debounce inputs
-- [] Improve optimistic updates
-- [] Build out design system for components and look into Shadcn UI for quicker development
-- [] Add delete button to UI
-- [] Configure .env to be at the root of the project
-- [] Better responsive styling
-- [] Fix iOS input styling
-- [] Add a11y extension in testing pipeline
-- [] Github actions for testing
+- [ ] Add postcss to not load all of tailwindcss
+- [ ] Debounce inputs
+- [ ] Improve optimistic updates
+- [ ] Build out design system for components and look into Shadcn UI for quicker development
+- [ ] Add delete button to UI
+- [ ] Configure .env to be at the root of the project
+- [ ] Better responsive styling
+- [ ] Fix iOS input styling
+- [ ] Add a11y extension in testing pipeline
+- [ ] Github actions for testing
