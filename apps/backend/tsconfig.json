@@ -4,9 +4,11 @@
     "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "target": "ES6",
     "baseUrl": ".",
+    "module": "NodeNext"
   },
-  "include": ["src/**/*"]
+  "include": ["./src/**/*"],
+  "exclude": ["**.test.*"]
 }
