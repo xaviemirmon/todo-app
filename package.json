@@ -12,9 +12,14 @@
   "private": true,
   "scripts": {
     "dev": "yarn workspace backend dev & yarn workspace frontend dev",
+    "test": "yarn workspace backend test && yarn workspace frontend test",
     "format": "prettier --write \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@types/supertest": "^6.0.3",
+    "msw": "^2.7.3",
+    "prettier": "^3.5.3",
+    "supertest": "^7.1.0",
+    "vitest": "^3.0.9"
   }
 }

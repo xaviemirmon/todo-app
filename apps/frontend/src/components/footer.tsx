@@ -38,7 +38,7 @@ export const Footer = () => {
   };
 
   return (
-    <form className="flex flex-col" onSubmit={handleSubmit}>
+    <form className="flex flex-col" onSubmit={handleSubmit} role="form">
       <div className="flex flex-row gap-4">
         <input
           type="text"
