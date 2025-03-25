@@ -22,6 +22,22 @@ Then run the following command in the root of the project:
 yarn dev
 ```
 
+## Formatting
+
+To format the code, run the following command in the root of the project:
+
+```bash
+yarn format
+```
+
+## Testing
+
+To run the tests, run the following command in the root of the project:
+
+```bash
+yarn test
+```
+
 ## To do list
 
 [x] Create yarn workspace
@@ -33,12 +49,12 @@ yarn dev
 [x] Build out basic CRUD routes on the backend
 [x] Build grid for todos
 [x] Fetch todos from backend using Tanstack Query
-[] Install Vitest
-[] Add unit tests
+[x] Install Vitest
+[x] Add unit tests with Claude
 [] Deploy to production
 
 Future todos:
-[] Add postcss to not load all tailwindcss
+[] Add postcss to not load all of tailwindcss
 [] Debounce inputs
 [] Improve optimistic updates
 [] Build out design system for components and look into Shadcn UI for quicker development
