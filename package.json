@@ -1,0 +1,16 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "To do app playground",
+  "workspaces": [
+    "apps/*",
+    "types"
+  ],
+  "repository": "git@github.com:xaviemirmon/todo-app.git",
+  "author": "Xavier Mirabelli-Montan <xavier@whiteskyweb.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace backend dev & yarn workspace frontend dev"
+  }
+}
